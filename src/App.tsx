@@ -6,7 +6,6 @@ export class App extends React.Component {
   };
 
   handleKeyUp = (event: KeyboardEvent) => {
-    console.log(event.key);
     this.setState({ pressedKey: event.key });
   };
 
